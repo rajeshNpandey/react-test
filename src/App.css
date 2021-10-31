@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+html {
+  overflow-y: auto;
+}
+
+.vlabs-page {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.vlabs-header {
+  border-bottom: 8px solid #ff6600;
+  font-family: "Raleway", sans-serif;
+}
+
+.vlabs-page-main {
+  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.vlabs-lab-name {
+  font-size: 1.7rem;
+}
+
+.vlabs-footer {
+  font-size: 14px;
+  background: rgb(17, 17, 17);
+  font-family: "Raleway", sans-serif;
+}
+
+.vlabs-footer-sect-name {
+  border-width: 0.15rem;
+  border-style: solid;
+  border-image: linear-gradient(to right, #3ec1d5 20%, #555 0%) 0% 0% 100% 0%;
+}
